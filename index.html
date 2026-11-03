@@ -5,25 +5,83 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Matthew Floehr Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
+        <h1>Matthew Floehr</h1>
 		<ul>
-            <h1>Matthew Floehr</h1>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="news.asp">News</a></li>
-            <li><a href="contact.asp">Contact</a></li>
-            <li><a href="about.asp">About</a></li>
+            <li><a href="#about"> About Me</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 	</header>
+    
+    <h2>About Me:</h2>
+	<section id="about">
+        <img src="photo.jpeg" alt="Matthew Floehr" class="profile">
+		<p>Matthew Floehr<br>
+        Computer Science Student<br>
+        St. Mary's College of Maryland<br>
+        Plan on getting a job in the Computer Science field.
+        </p>
+    </section>
 
-	<main>
-		<p>This is the start of my webpage.</p>
-	</main>
+    <h2>Interests:</h2>
+    <section id="interests">
+        <ul>
+            <li>Programming</li>
+            <li>Gaming</li>
+            <li>Homelabbing</li>
+            <li>AI</li>
+        </ul>
+    </section>
 
-	<footer>
-		<p>&copy; 2025 Matthew Floehr Portfolio</p>
+    <h2>Skills:</h2>
+    <section id="skills">
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Go</li>
+            <li>Django</li>
+            <li>Git</li>
+        </ul>
+    </section>
+
+    <h2>Projects:</h2>
+    <section id="projects">
+        <div class="portfolio">
+            <h3>Portfolio Project</h3>
+            <p>A personal portfolio website showcasing my projects and skills.<br>
+            <a href="https://github.com/mafloehr-smcm/mafloehr-smcm.github.io" target="_blank">https://github.com/mafloehr-smcm/mafloehr-smcm.github.io</a>
+            </p>
+        </div>
+        <div class="bankan">
+            <h3>Bankan🍊</h3>
+            <p>A Kanban board application.<br>
+            <a href="https://github.com/ssthapit-smcm/COSC301-P3" target="_blank">https://github.com/ssthapit-smcm/COSC301-P3</a>
+            </p>
+        </div>
+    </section>
+
+    <h2>Contact:</h2>
+    <section id="contact">
+        <a href="mailto:mafloehr@smcm.edu"> Email
+            <img src="https://png.pngtree.com/png-vector/20201109/ourmid/pngtree-email-icon-design-png-image_2413695.jpg" alt="Email Icon" class="contact">
+        </a>
+        <a href="https://github.com/mafloehr-smcm" target="_blank">GitHub <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1280px-GitHub_Invertocat_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="GitHub Icon" class="contact"></a>
+        <a href="https://www.linkedin.com/in/matthew-floehr-635b22448/" target="_blank">LinkedIn
+            <img src="https://www.citypng.com/public/uploads/preview/hd-vector-flat-linkedin-in-round-icon-png-701751695046390m4phkuuiqm.png" alt="LinkedIn Icon" class="contact">
+        </a>
+    </section>
+	
+    
+    <footer>
+		<p>&copy; 2026 Matthew Floehr Portfolio</p>
 	</footer>
 </body>
 </html>
