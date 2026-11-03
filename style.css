@@ -35,6 +35,22 @@ header ul {
     display: flex;
     justify-content: left;
     gap: 2rem;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+#interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#interests div {
+  border: 2px solid black;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
 }
 
 #skills {
@@ -62,6 +78,14 @@ header ul {
   border-radius: 8px;
 }
 
+#contact {
+    display: flex;
+    gap: 1rem;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 8px;
+    
+}
 .contact {
     width: 24px;
     height: 24px;
