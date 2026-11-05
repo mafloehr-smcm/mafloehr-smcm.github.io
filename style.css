@@ -91,3 +91,58 @@ header ul {
     height: 24px;
     vertical-align: middle;
 }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #eeeeee;
+}
+
+body.dark-mode header {
+    background-color: #121212;
+    border-color: #bbbbbb;
+}
+
+body.dark-mode #about,
+body.dark-mode #interests div,
+body.dark-mode #skills div,
+body.dark-mode #projects div,
+body.dark-mode #contact {
+    border-color: #bbbbbb;
+}
+
+body.dark-mode a {
+    color: #8ab4f8;
+}
+
+body.dark-mode a:visited {
+    color: #c5a5f5;
+}
+
+
+#theme-toggle {
+    appearance: none;
+    width: 44px;
+    height: 24px;
+    border-radius: 12px;
+    background: gray;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#theme-toggle::before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 3px;
+    border-radius: 50%;
+    background: white;
+}
+
+#theme-toggle:checked {
+    background: #4285f4;
+}
+
+#theme-toggle:checked::before {
+    transform: translateX(20px);
+}
