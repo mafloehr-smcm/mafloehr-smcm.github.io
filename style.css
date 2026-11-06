@@ -90,6 +90,7 @@ header ul {
     width: 24px;
     height: 24px;
     vertical-align: middle;
+    object-fit: contain;
 }
 
 body.dark-mode {
@@ -116,6 +117,10 @@ body.dark-mode a {
 
 body.dark-mode a:visited {
     color: #c5a5f5;
+}
+
+body.dark-mode .github-icon {
+    filter: brightness(0) invert(1);
 }
 
 
