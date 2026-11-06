@@ -94,12 +94,12 @@ header ul {
 }
 
 body.dark-mode {
-    background-color: #121212;
+    background-color: #242424;
     color: #eeeeee;
 }
 
 body.dark-mode header {
-    background-color: #121212;
+    background-color: #242424;
     border-color: #bbbbbb;
 }
 
